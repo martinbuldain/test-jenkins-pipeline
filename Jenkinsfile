@@ -4,7 +4,7 @@ pipeline {
         stage ('Build') {
             steps {
                 script {
-                    sh "git diff --dirstat=files,0 HEAD~1"
+                    sh "git ls-files"
                     echo 'Printing output'
                 }
             }   
