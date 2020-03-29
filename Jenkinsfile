@@ -3,10 +3,8 @@ pipeline {
     stages {
         stage ('Build') {
             steps {
-                script {
                     sh "git ls-files"
-                    echo 'Printing output'
-                }
+                    echo 'Printing output
             }   
         }
     }
