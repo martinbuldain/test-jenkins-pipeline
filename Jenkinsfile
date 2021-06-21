@@ -4,7 +4,7 @@ pipeline {
         stage ('Build') {
             steps {
                     sh "git ls-files"
-                    echo 'Printing output
+                    echo 'Printing outputs
             }   
         }
     }
